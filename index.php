@@ -2,12 +2,12 @@
 
 Kirby::plugin('candyblue/gtm-ga-opt-out', [
   'tags' => [
-    'optout' => [
+    'ga-opt-out' => [
       'attr' => [
         'message'
       ],
       'html' => function($tag) {
-        $text = $tag->attr('optout');
+        $text = $tag->attr('ga-opt-out');
         $message = $tag->attr('message');
 
         $a = '<a id="ga-opt-out" href="#" data-message="' . $message . '">';
