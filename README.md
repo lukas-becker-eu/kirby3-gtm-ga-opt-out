@@ -1,1 +1,1 @@
-# Kirby 3 Plugin Starterkit
+# Kirby 3: Google Analytics Opt-out via Google Tag Manager
